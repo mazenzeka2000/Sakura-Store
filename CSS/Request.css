@@ -1,0 +1,209 @@
+header {
+  border-width: 1.4vb;
+  border-color: black;
+  border-style: ridge;
+  text-align: center;
+  padding: 0px;
+  border-top: 0%;
+  border-left: 0%;
+  display: block;
+  width: 98vw;
+  text-shadow: .3vb .3vb .3vb black;
+  text-shadow: .3vb .3vb .3vb black;
+  text-transform: capitalize;
+  color: pink;
+  font-size: 2.4vb;
+  position: sticky;
+  top: 0;
+  background-image: url(sakura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ephesis', 'cursive';
+}
+
+body {
+  margin: 0;
+  background-image: url(sakura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  background-color: #c07190;
+  overflow-y: scroll;
+}
+
+section {
+margin: 20px;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 3px 3px 10px black;
+width: 400px;
+height: 350px;
+background-size: cover;
+position: relative;
+top: 170px;
+right: 650px;
+left: 650px;
+background-color: #c0719188;
+direction: rtl;
+font-family: 'Amiri', serif;
+
+}
+
+form {
+max-width: 400px;
+margin: 0 auto;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type="submit"] {
+background-color: #333;
+color: #fff;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #555;
+}
+
+.links {
+  border-color: black;
+  border-style: solid none none solid;
+  direction: rtl;
+  height: 85%;
+  width: 10%;
+  position: fixed;
+  right: 0;
+  top: 19.14%;
+  background-image: url(sakura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  .links a {
+      border-color: rgb(0, 183, 255);
+      border-style: solid;
+      direction: rtl;
+      text-align: center;
+      display: block;
+      margin: 10%;
+      margin-top: 35%;
+      font-size: 20px;
+      background-image: url(sakura.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      color: pink;
+      text-decoration: none;
+      text-shadow: .1vb .1vb .1vb black;
+      font-family: 'Amiri', serif;
+      border-radius: 5px;
+  }
+
+a:hover {
+color: blueviolet;
+border-color: #000000;
+}
+
+.search-text {
+  font-family: 'Amiri', 'serif';
+  direction: rtl;
+  border-color: black;
+  width: 9.5%;
+  height: 36px;
+  position: fixed;
+  right: 0;
+  display: inline-block;
+  margin: 0;
+  color: pink;
+  font-size: 23px;
+  padding-right: 10px;
+  background-image: url(sakura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: .1vb .1vb .1vb black;
+  font-weight: 700;
+  text-align: center;
+}
+
+.search {
+display: inline-block;
+margin: 0;
+}
+.search-bar input[type=search] {
+  width: 89.4vw;
+  position: fixed;
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-style: none solid solid none;
+  height: 38.949px;
+  border-color: black;
+  border-width: 3px;
+  direction: rtl;
+  background-image: url(sakura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+span {
+color: blue;
+}
+
+span:hover {
+color: red;
+}
+
+span2 {
+color:white;
+}
+
+.copy {
+  direction: ltr;
+  text-align: center;
+  cursor: context-menu;
+  color: rgb(153, 0, 167);
+  font-family: 'Ephesis', 'cursive';
+  font-size: 32px;
+}
+
+.copy2 {
+direction: ltr;
+text-align: center;
+margin-top: 280px;
+cursor: context-menu;
+color: rgb(153, 0, 167);
+font-size: 25px;
+}
+
+body::-webkit-scrollbar {
+  width: 11.999999px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #c07190;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: pink;
+}
+
+body::-webkit-scrollbar-corner {
+  background: #c07190;
+}
